@@ -1,8 +1,5 @@
 package com.example.sarmi.clicker_2_2;
 
-/**
- * Created by sarmi on 19.03.2016.
- */
 /*
  * Copyright 2014 Google Inc. All rights reserved.
  *

@@ -1,9 +1,8 @@
 package com.example.sarmi.clicker_2_2;
 
-
+import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,7 +16,7 @@ public class MainActivity extends ActionBarActivity {
     ViewPager pager;
     ViewPagerAdapter adapter;
     SlidingTabLayout tabs;
-    CharSequence Titles[]={"Печенье","Улучшения"};
+    CharSequence Titles[]={"Печеньки","Улучшения"};
     int Numboftabs =2;
 
     @Override
@@ -74,7 +73,7 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-      /*  if (id == R.id.action_settings) {
+       /* if (id == R.id.action_settings) {
             return true;
         }*/
 
